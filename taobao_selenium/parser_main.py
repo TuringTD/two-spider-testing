@@ -17,6 +17,7 @@ def browser_teardown(browser):
 
 def save_data(data):
     for i in data:
+        # 保存到本地
         print('<DATA>', i)
 
 
